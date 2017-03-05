@@ -1,0 +1,19 @@
+{
+	"name":"Feira",
+	"description":"Site para aprendizado e portifólio",
+	"authors":[
+		{
+			"name":"William Moura da Silva",
+			"email":"williammoura908@hotmail.com"
+		}
+	],
+	"require":{
+		"php":">5.6",
+		"twbs/bootstrap":"3.3.6"
+	},
+	"autoload":{
+		"psr-4":{
+			"Feira\\":"app/"
+		}
+	}
+}
